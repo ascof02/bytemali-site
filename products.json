@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "name": "Ordinateur portable ProBook 450",
+      "category": "Ordinateurs",
+      "brand": "HP",
+      "price": 425000,
+      "stock": "En stock",
+      "description": "Intel Core i5, 8 Go RAM, 256 Go SSD — idéal bureautique et internet.",
+      "image": ""
+    },
+    {
+      "name": "Ordinateur de bureau Essential Tower",
+      "category": "Ordinateurs",
+      "brand": "Dell",
+      "price": 310000,
+      "stock": "Sur commande",
+      "description": "Intel Core i3, 4 Go RAM, 500 Go HDD — poste de travail standard.",
+      "image": ""
+    },
+    {
+      "name": "Écran 21.5\" Full HD",
+      "category": "Périphériques",
+      "brand": "Samsung",
+      "price": 75000,
+      "stock": "En stock",
+      "description": "Dalle IPS, ports HDMI/VGA, idéal pour bureau ou poste de caisse.",
+      "image": ""
+    },
+    {
+      "name": "Clavier et souris sans fil",
+      "category": "Périphériques",
+      "brand": "Logitech",
+      "price": 18000,
+      "stock": "En stock",
+      "description": "Combo clavier + souris, connexion USB sans fil, piles incluses.",
+      "image": ""
+    },
+    {
+      "name": "Disque SSD 480 Go",
+      "category": "Composants",
+      "brand": "Kingston",
+      "price": 32000,
+      "stock": "En stock",
+      "description": "SATA III, idéal pour accélérer un ordinateur existant.",
+      "image": ""
+    },
+    {
+      "name": "Barrette mémoire 8 Go DDR4",
+      "category": "Composants",
+      "brand": "Kingston",
+      "price": 21000,
+      "stock": "Rupture",
+      "description": "Compatible ordinateurs de bureau, fréquence 2666 MHz.",
+      "image": ""
+    },
+    {
+      "name": "Onduleur 650VA",
+      "category": "Accessoires",
+      "brand": "APC",
+      "price": 45000,
+      "stock": "En stock",
+      "description": "Protection contre les coupures de courant, 3 prises protégées.",
+      "image": ""
+    },
+    {
+      "name": "Câble HDMI 3 mètres",
+      "category": "Accessoires",
+      "brand": "Générique",
+      "price": 3500,
+      "stock": "En stock",
+      "description": "Compatible Full HD et 4K, connecteurs plaqués or.",
+      "image": ""
+    }
+  ]
+}
