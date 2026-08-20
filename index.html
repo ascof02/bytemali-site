@@ -84,5 +84,16 @@
 </footer>
 
 <script src="script.js"></script>
+
+<!-- Nécessaire pour que les liens d'invitation/mot de passe de l'administration fonctionnent -->
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {});
+    window.netlifyIdentity.on("login", () => {
+      window.location.href = "/admin/";
+    });
+  }
+</script>
 </body>
 </html>
