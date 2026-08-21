@@ -1,0 +1,33 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "products"
+    label: "Catalogue"
+    files:
+      - file: "data/products.json"
+        label: "Produits"
+        name: "products"
+        fields:
+          - label: "Produits"
+            name: "products"
+            widget: "list"
+            summary: "{{name}} — {{price}} FCFA"
+            fields:
+              - {label: "Nom du produit", name: "name", widget: "string"}
+              - label: "Catégorie"
+                name: "category"
+                widget: "select"
+                options: ["Ordinateurs", "Périphériques", "Composants", "Accessoires"]
+              - {label: "Marque", name: "brand", widget: "string", required: false}
+              - {label: "Prix (FCFA)", name: "price", widget: "number", value_type: "int"}
+              - label: "Disponibilité"
+                name: "stock"
+                widget: "select"
+                options: ["En stock", "Sur commande", "Rupture"]
+              - {label: "Description courte", name: "description", widget: "text", required: false}
+              - {label: "Photo", name: "image", widget: "image", required: false}
